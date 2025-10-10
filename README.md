@@ -56,7 +56,8 @@ For questions regarding the datasets or code usage, please open a discussion in 
 ## Citing
 
 ```
-@article{CHEN2025106576,
+@article{chen2025tfno,
+  author = {Rongxiu Chen and Chul-Woo Kim and Jiaji Wang},
   title = {Real-time surrogate model of vehicle-bridge interaction using a multiple-input neural operator},
   journal = {Automation in Construction},
   volume = {180},
