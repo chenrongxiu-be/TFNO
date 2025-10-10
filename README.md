@@ -1,7 +1,7 @@
 # TFNO
 This repository provides the official implementation of the paper:
 
-* TFNO: Real-time surrogate model of vehicle-bridge interaction based on a novel multiple-input neural operator
+* [TFNO: Real-time surrogate model of vehicle-bridge interaction based on a novel multiple-input neural operator](https://doi.org/10.1016/j.autcon.2025.106576)
 
 In this work, we propose a novel multiple-input neural operator, TFNO, which integrates the Transformer architecture with the Fourier Neural Operator. TFNO is developed as a surrogate model for the vehicle–bridge interaction system, enabling accurate and real-time prediction of bridge dynamic deflection responses.
 
@@ -53,5 +53,17 @@ We provide pre-trained models for the continuous bridge deck case, including TFN
 ## Support
 For questions regarding the datasets or code usage, please open a discussion in the **GitHub Issues** section.
 
+## Citing
 
+```
+@article{CHEN2025106576,
+  title = {Real-time surrogate model of vehicle-bridge interaction using a multiple-input neural operator},
+  journal = {Automation in Construction},
+  volume = {180},
+  pages = {106576},
+  year = {2025},
+  issn = {0926-5805},
+  doi = {https://doi.org/10.1016/j.autcon.2025.106576}
+}
+```
 
