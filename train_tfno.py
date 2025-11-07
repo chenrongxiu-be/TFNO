@@ -480,7 +480,7 @@ class Fourier_layer(nn.Module):
                 
         # Activation 
         if not self.last_layer:
-            self.non_lineariry = nn.GELU()
+            self.nonlinearity = nn.GELU()
             
     # Complex multiplication
     def compl_mul2d(self, input, weights):
@@ -505,7 +505,7 @@ class Fourier_layer(nn.Module):
         out = out_ft + out_skip
         
         if not self.last_layer: 
-            out = self.non_lineariry(out)
+            out = self.nonlinearity(out)
         
         return out
 
@@ -770,5 +770,6 @@ def get_loss(ts_idx, data_timesize, pred_def, keep_mask,
 if __name__ == '__main__':
     main()
     print('All done!')
+
 
 
