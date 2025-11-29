@@ -5,6 +5,8 @@ This repository provides the official implementation of the paper:
 
 In this work, we propose a multiple-input neural operator, TFNO, which integrates the Transformer with the Fourier Neural Operator. TFNO is developed as a surrogate model for the vehicle–bridge interaction system, enabling accurate and real-time prediction of bridge dynamic deflection responses.
 
+![Architecture](./fig/Fig_arch.png)
+
 ## Requirements
 The implementation is based on Python with the following dependencies:
 * numpy, pytorch, einops, matplotlib
