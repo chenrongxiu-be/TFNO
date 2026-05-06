@@ -38,19 +38,16 @@ To enable transfer learning after pre-training:
 1. Adjust evaluation configurations in plot.py.
 2. Run plot.py
 
-## Datasets
-The datasets used in the paper are provided in .npy (NumPy array) format and are directly loadable within the scripts.
+## Datasets and Models
+The datasets used in the paper are provided in .npy (NumPy array) format and are directly loadable within the scripts:
 
 [Datasets](https://stkyotouac-my.sharepoint.com/:f:/g/personal/chen_rongxiu_72m_st_kyoto-u_ac_jp/EqVT_FXa-QFPlRYmqgdJ1LsB5lIo_yC6o6x9LH0S1hYSVQ?e=K0oXYH)*
 
-**Shared via OneDrive. If you experience access issues, please try different devices or web browsers (Google Chrome is recommended).* 
-
-## Models
-We provide pre-trained models for the continuous bridge deck case, including TFNO and the baseline models (Fourier-MIONet, LSTM, and NARX).
+We also provide pre-trained models for the continuous bridge deck case, including TFNO and the baseline models (Fourier-MIONet, LSTM, and NARX):
 
 [Pre-trained models](https://stkyotouac-my.sharepoint.com/:f:/g/personal/chen_rongxiu_72m_st_kyoto-u_ac_jp/EpS5Hb9EbhJBgeZTF_GAUrYBqf35rr4wR9d7Vg3mtSIYAw?e=p7ZNhZ)*
 
-**Shared via OneDrive. If you experience access issues, please try different devices or web browsers (Google Chrome is recommended).* 
+**Shared via OneDrive. If you encounter access issues, please try using a different device or web browser. Google Chrome is recommended. If the downloaded files appear to be corrupted, please download the files individually rather than downloading the entire folder at once.* 
 
 ## Support
 For questions regarding the datasets or code usage, please open a discussion in the **GitHub Issues** section.
